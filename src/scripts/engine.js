@@ -37,7 +37,7 @@ function countDown(){
 }
 
 function playSound(audioName) {
-    let audio = new Audio('./src/audios/${audioName}.m4a');
+    let audio = new Audio("./src/audios/${audioName}.m4a");
     audio.volume = 0.2;
     audio.play();
 }
